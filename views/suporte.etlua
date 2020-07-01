@@ -1,0 +1,42 @@
+<section id="suporte" class="conteudo">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-light display-3">Suporte</h1>
+                 <div class="dropdown-divider border-light p-3"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card bg-transparent">
+
+                    <div class="card-body card-body-bg rounded">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">                        
+                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat ut risus non mollis. Phasellus ut diam enim. Praesent molestie congue lectus id ultricies. Maecenas enim nibh, imperdiet a erat vitae, venenatis porta lectus. Ut sit amet dolor eget leo auctor volutpat ac eget eros. Suspendisse varius aliquet fermentum. Nunc consectetur ligula ut lorem tincidunt congue. Nunc tempor at ex quis posuere. Pellentesque ullamcorper quis risus a convallis. Cras cursus lobortis lorem, vitae fringilla arcu imperdiet at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc viverra, massa nec pellentesque auctor, odio massa consequat neque, vel ultricies turpis augue ultricies nibh. Cras nec arcu at sapien blandit condimentum et at ligula.
+                        </p>
+                        <p class="card-text">
+                            Nulla id ex ligula. Proin consectetur risus lectus. Praesent eget diam eget arcu ornare tincidunt. Nulla facilisi. Integer ac quam in leo pellentesque pretium. In aliquam neque dui, eu pretium urna tincidunt ut. Curabitur eget urna eros. Ut tortor lectus, semper eget finibus ac, dignissim at erat. Vivamus tempor ex nec nisi tincidunt, et imperdiet orci laoreet. Etiam sed dolor convallis, viverra mauris id, efficitur mi.
+                        </p>
+                        <p class="card-text">
+                            Cras gravida volutpat urna, sed fermentum lorem rutrum eget. Donec suscipit magna at nibh dignissim posuere. Donec dapibus felis dolor, et semper magna vulputate non. Proin justo elit, elementum eget vestibulum et, pellentesque a sapien. Cras blandit imperdiet erat nec blandit. Curabitur non facilisis ipsum. Morbi vel quam vitae mi rhoncus tincidunt. Nunc porttitor eget eros in vestibulum. In urna enim, rutrum nec pretium eget, fringilla eget eros. Curabitur pretium mi sit amet luctus imperdiet. Donec nec tellus augue. Aenean id lobortis velit, sed sollicitudin velit. Donec at ullamcorper diam, sed auctor ligula. Nullam congue sodales sem, sed auctor ligula. Ut magna tellus, mollis eget imperdiet vel, tempor non purus.
+                        </p>
+                        <p class="card-text">
+                            Curabitur laoreet lectus massa, et rhoncus nunc dignissim at. In quis justo non enim venenatis faucibus. Phasellus molestie sapien quis risus ultricies, gravida varius nunc blandit. Etiam pretium lacus in massa mollis, ac tincidunt ex porta. Donec lobortis in justo ut ultrices. Donec semper tortor nisi, et porttitor quam placerat a. Curabitur ultricies auctor tellus ut porta. Nunc sed mauris mattis, viverra urna vel, consectetur mi.
+                        </p>
+                        <p class="card-text">
+                            Sed nec turpis egestas, porta arcu fermentum, laoreet libero. Sed fringilla eu justo in hendrerit. Aenean sed eros ac elit tincidunt semper. Maecenas sed magna nec neque congue sagittis. Curabitur viverra placerat lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tempor varius mi et faucibus. Quisque ut ipsum ac metus varius feugiat. Ut massa massa, finibus at placerat ut, tincidunt nec sem. Curabitur eget dapibus lacus, vel pulvinar leo.
+                        </p>
+                        <p class="card-text">
+                            Nam non auctor nisl. Cras luctus auctor est eget vestibulum. Proin fermentum rutrum libero in tristique. Duis dictum convallis purus, in elementum sem tempus lobortis. Aenean id eleifend dui, sed luctus felis. Donec a semper dui. Fusce auctor, est in finibus elementum, mi libero congue elit, nec ultrices lorem arcu a lorem. Donec sit amet dapibus mauris. Aenean suscipit metus nec pellentesque dictum. Sed eget sem porta augue faucibus maximus nec vitae arcu. Integer sit amet vehicula nisi, id molestie diam. Quisque in odio feugiat, tempus ipsum et, vestibulum lorem. Donec mattis posuere erat, et volutpat nunc rutrum id. Maecenas pharetra placerat sodales. Quisque rhoncus dictum purus at ultrices.
+                        </p>
+                        <p class="card-text">
+                            Donec eget ultrices magna. Aenean urna ante, aliquam et mauris sed, venenatis aliquet ligula. Nullam sollicitudin vel massa vitae vulputate. Sed id sagittis odio. Nullam viverra, mauris ac tincidunt tempus, eros quam mollis turpis, vitae mollis tortor orci a odio. Proin aliquet, magna non condimentum semper, orci metus egestas est, sed fermentum ipsum ligula eu justo. In vel augue imperdiet orci blandit bibendum ut vitae erat. 
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

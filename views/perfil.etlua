@@ -1,0 +1,55 @@
+<section id="perfil" class="conteudo">
+    <div class="container">
+        <div class="row">
+            <div class="col d-flex justify-content-center text-light">
+                
+                <div class="card limite-externo bg-transparent">
+                    <div class="card-header text-light black-interno rounded">
+                       <h6 class="clear-margin pt-1 font-weight-bold"> INFORMAÇÕES DA CONTA </h6>
+                    </div>
+                    <div class="card-body text-dark" style="background: rgba(250,250,250, 0.7); border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;">
+                        <h5 class="card-title">Seja bem-vindo <span class="text-muted"><%= session.user.username %></span>,</h5>
+                        <p class="card-text">Ao usar o sistema ou jogar o jogo você concorda com os termos e regras do PokeXGames.</p>
+                        <div class="dropdown-divider mt-3 mb-1"></div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="card bg-transparent rounded mt-3">
+                                    <div class="card-header text-light" style="background-color: #3c3c3c;">
+                                        <h6 class="clear-margin pt-1 font-weight-bold"> Diamantes </h6>
+                                    </div>
+                                    <div class="card-body text-dark card-body-bg">
+                                        <h5 class="font-weight-bold pt-1 pl-1">50</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="card bg-transparent rounded mt-3">
+                                    <div class="card-header text-light" style="background-color: #3c3c3c;">
+                                        <h6 class="clear-margin pt-1 font-weight-bold"> Situação da conta </h6>
+                                    </div>
+                                    <div class="card-body text-dark card-body-bg">
+                                        <h5 class="font-weight-bold  pt-1 pl-1">Normal</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6 mt-3">
+                                <div class="card bg-transparent rounded">
+                                    <div class="card-header text-light" style="background-color: #3c3c3c;">
+                                        <h6 class="clear-margin pt-1 font-weight-bold"> Último Login </h6>
+                                    </div>
+                                    <div class="card-body text-dark card-body-bg">
+                                        <h5 class="font-weight-bold  pt-1 pl-1""> <%= session.user.login_date %></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="dropdown-divider mt-3 mb-1"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

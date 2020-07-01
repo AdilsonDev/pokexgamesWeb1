@@ -1,0 +1,11 @@
+2020/06/28 10:28:13 [alert] 7246#0: lua_code_cache is off; this will hurt performance in /home/sylither/lapis/loginSystem_projeto/nginx.conf.compiled:16
+2020/06/29 00:09:08 [alert] 35888#0: lua_code_cache is off; this will hurt performance in /home/sylither/lapis/loginSystem_projeto/nginx.conf.compiled:16
+2020/06/29 03:05:04 [alert] 43135#0: lua_code_cache is off; this will hurt performance in /home/sylither/lapis/loginSystem_projeto/nginx.conf.compiled:16
+2020/06/29 03:12:45 [alert] 43373#0: lua_code_cache is off; this will hurt performance in /home/sylither/lapis/loginSystem_projeto/nginx.conf.compiled:16
+2020/06/29 14:15:21 [alert] 56568#0: lua_code_cache is off; this will hurt performance in /home/sylither/lapis/loginSystem_projeto/nginx.conf.compiled:16
+2020/06/29 18:48:00 [alert] 65695#0: lua_code_cache is off; this will hurt performance in /home/sylither/lapis/loginSystem_projeto/nginx.conf.compiled:16
+2020/06/29 23:17:19 [alert] 76431#0: lua_code_cache is off; this will hurt performance in /home/sylither/lapis/loginSystem_projeto/nginx.conf.compiled:16
+2020/06/29 23:26:37 [alert] 76642#0: lua_code_cache is off; this will hurt performance in /home/sylither/lapis/loginSystem_projeto/nginx.conf.compiled:16
+2020/06/30 11:12:01 [alert] 99966#0: lua_code_cache is off; this will hurt performance in /home/sylither/lapis/loginSystem_projeto/nginx.conf.compiled:16
+2020/06/30 22:11:38 [alert] 110663#0: lua_code_cache is off; this will hurt performance in /home/sylither/lapis/loginSystem_projeto/nginx.conf.compiled:16
+2020/07/01 06:48:25 [alert] 130126#0: lua_code_cache is off; this will hurt performance in /home/sylither/lapis/loginSystem_projeto/nginx.conf.compiled:16

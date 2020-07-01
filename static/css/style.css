@@ -1,0 +1,256 @@
+html, body, #show, #home, #login, #perfil, #media, #suporte {
+	height: 100%;
+	overflow-x: hidden; /* esconde a barra horizontal de rolagem de tela (visible ou hidden ou scroll),
+	lembrando que mesmo utilizando scroll ele não rola a tela se esconder a barra. No caso do scroll
+	ele aparece a barra mesmo sem conteúdo saindo da tela. Pode usar só overflow para esconder 
+	vertical e horizontal  */
+}
+
+body {
+  background-color: #45b6fe;
+  background: url("/static/images/background.jpg") no-repeat center top fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a { 
+  color: inherit; 
+} 
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+}
+
+hr {
+  border-color: rgb(108, 100, 100,0.8);
+  padding: 0 10px;
+}
+
+h1 {
+  text-shadow: 0.04em 0.04em #000000;
+}
+
+h5 {
+
+  margin: 0;
+
+}
+
+.clear-margin {
+  padding: 0;
+  margin: 0;
+}
+
+.caixa {
+	padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.container {
+  max-width: 90%;
+}
+
+.container-fluid {
+  max-width: 90%;
+}
+/*
+.custom-drop {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 0;
+}*/
+
+.dropdown-divider {
+  border-color: rgb(139, 135, 135);
+  margin: 0;
+}
+
+.custom-drop a {
+  padding: 10px 14px;
+}
+
+.custom-drop a:hover {
+  background-image: linear-gradient(to top, rgba(50, 50, 50, 0.6), rgba(50, 50, 50, 0.8));
+}
+
+.conteudo {
+  margin-top: 150px;
+}
+
+.navbar {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+  padding: 0;  
+}
+
+.navbar-nav {
+  padding: 2px;
+}
+
+.nav-item {
+  padding-left: 20px;
+  margin: 1px;
+  padding: 0 15px 0 15px;
+  border-radius: 5px;
+}
+
+.nav-item:hover, .nav-item:active {
+  background-image: linear-gradient(to top, rgba(120, 120, 125, 0.6), rgba(120, 120, 125, 0.8));
+  border-radius: 5px;
+
+}
+
+.nav-link {
+  padding: 18px 60px 18px 30px;
+  margin-left: 3px;  
+}
+
+.btn-custom {
+	color: white;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	transition: background 0.8s, color 0.8s;
+  padding: 10px 15px 7px 15px;
+  border: 2px solid;
+}
+
+a:focus {
+  outline: 0;
+}
+
+.page-footer {
+  height: 220px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8));
+  color: #FFFFFF;
+}
+
+.list-inline-item {
+  margin: 30px 10px 20px 10px;
+}
+
+.custom-login {
+  border-radius: 20px;
+  min-width: 300px;
+  background: rgba(50, 50, 50, 0.9);
+}
+
+.custom-painel {
+  min-width: 280px;
+  background: #191919;
+  border: 1px solid #191919;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.custom-alert {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.boxPerfil {
+  height: 500px;
+}
+
+.limite-interno {
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.limite-externo {
+  min-width: 340px;
+  max-width: 1300px;
+  width: 80%;
+  
+}
+
+.card-body-bg {
+  background: rgba(250,250,250, 0.6);
+}
+
+.card-screenshoth {
+  min-width: 180px;
+  max-width: 180px;
+  height: 190px;
+}
+
+.card-img-top {
+  height: 150px;
+}
+
+.black-interno {
+  background: #262626;
+}
+
+@media (max-width: 359.98px) { 
+  .hide {
+    display: none;
+  }
+  html {
+    font-size: 8px;
+  }
+}  
+
+@media (min-width: 360px) and (max-width: 449.98px) { 
+  .iconesfooter {
+    font-size: 2.7em;
+  }
+  html {
+    font-size: 10px;
+  }
+}  
+
+@media (min-width: 450px) and (max-width: 575.98px) { 
+  .iconesfooter {
+    font-size: 3.0em;
+  }
+  html {
+    font-size: 12px;
+  }
+}  
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .iconesfooter {
+    font-size: 3.0em;
+  }
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .iconesfooter {
+        font-size: 3.0em;
+    }
+    .custom-drop {    
+      padding: 0;  
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .iconesfooter {
+        font-size: 3.5em;
+    }
+    .custom-drop {
+      background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 0;    
+    }
+}
+
+@media (min-width: 1200px) {
+    .iconesfooter {
+        font-size: 4.0em;
+    }
+    .custom-drop {
+      background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 0;    
+    }
+}

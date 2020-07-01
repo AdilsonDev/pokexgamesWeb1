@@ -1,0 +1,15 @@
+<section id="home" class="d-flex text-light">
+	<div class="container align-self-center">
+		<div class="row">
+			<div class="col-md-12">
+				
+				<h1 class="display-4 font-weight-bold mb-3">PokeXGames</h1>
+				<p class="font-weight-bold lead"> Site demonstrativo, utilizado para avaliações de portfólio, <br> feito com bastante dedicação e carinho, espero que curta o site.  <p>
+				<a href="/account/create"><button class="btn btn-md btn-outline-light btn-custom mt-3">Criar Conta</button></a>
+
+			</div>
+		</div>
+		
+	</div>
+	
+</section>

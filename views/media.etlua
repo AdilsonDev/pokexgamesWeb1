@@ -1,0 +1,109 @@
+<section id="media" class="conteudo">
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-light display-3">
+                Mídia
+                </h1>
+                <div class="dropdown-divider border-light p-3"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card bg-transparent" style="min-width: 330px;">
+
+                    <div class="card-body card-body-bg rounded">
+                        <div class="row d-flex flex-wrap justify-content-around">
+                            <div class="col-5 p-3" style="min-width: 200px;">
+                                <ul class="list-inline m-0">
+                                    <li class="list-inline-item m-0">
+                                        <i class="fas fa-play-circle fa-2x"></i>
+                                    </li>
+                                    <li class="list-inline-item m-0">
+                                        <h2 class="card-title m-0 pl-1 font-weight-bold" style="font-size: 2em;">
+                                            Vídeos
+                                        </h2>
+                                    </li>
+                                </ul>
+
+                                <div class="dropdown-divider border-dark rounded-right" style="border-width: 7px;"></div>
+                                 
+                            <!-- Começo do Loop -->
+                                <div class="card mb-3 mt-3">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-4">
+                                            <img src="https://i.ytimg.com/vi/n2YnYXLJUEA/maxresdefault.jpg" style="height: 180px;" class="card-img pt-2 pl-1" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Conheça Novos Pokémon</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>         
+
+                                <div class="card mb-3 mt-3">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-4">
+                                            <img src="https://i.ytimg.com/vi/1K_GIgI1au0/maxresdefault.jpg" style="height: 180px;" class="card-img pt-2 pl-1" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Novas Arenas</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>               
+                            <!-- Fim do Loop -->      
+                            
+                            </div>
+                             <div class="col-7 p-3">
+                                <ul class="list-inline m-0">
+                                    <li class="list-inline-item m-0">
+                                        <i class="fas fa-camera-retro fa-2x"></i>
+                                    </li>
+                                    <li class="list-inline-item m-0">
+                                        <h2 class="card-title m-0 pl-2 font-weight-bold" style="font-size: 2em;">
+                                            Screenshots
+                                        </h2>
+                                    </li>
+                                </ul>
+                                <div class="dropdown-divider border-dark rounded-right" style="border-width: 7px;"></div>
+                                    
+                                <div class="card-deck d-flex flex-wrap justify-content-between flex-row bd-highlight mb-3">
+
+                                <!-- Começo do Loop -->
+
+                                    <div class="card card-screenshoth mt-3 pt-2 pl-1 pr-1"">
+                                        <img src="/static/images/screenshots/pardalLindo.jpg" class="card-img-top" alt="...">
+                                        <small class="text-muted pt-2 pl-1">Postada dia 01/07/2020.</small>
+                                    </div>
+                                    <div class="card card-screenshoth mt-3 pt-2 pl-1 pr-1"">
+                                        <img src="/static/images/screenshots/pescando.jpg" class="card-img-top" alt="...">
+                                        <small class="text-muted pt-2 pl-1">Postada dia 01/07/2020.</small>
+                                    </div>
+                                    <div class="card card-screenshoth mt-3 pt-2 pl-1 pr-1"">
+                                        <img src="/static/images/screenshots/house.jpg" alt="...">
+                                        <small class="text-muted pt-2 pl-1">Postada dia 01/07/2020.</small>
+                                    </div>
+                                    <div class="card card-screenshoth mt-3 pt-2 pl-1 pr-1">
+                                        <img src="/static/images/screenshots/pegandoTrem.jpg" class="card-img-top" alt="...">
+                                        <small class="text-muted pt-2 pl-1">Postada dia 01/07/2020.</small>
+                                    </div>
+
+                                <!-- FIM do Loop -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
