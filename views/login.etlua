@@ -3,25 +3,25 @@
         <div class="row d-flex justify-content-center">
             <div class="col-3 custom-login text-light pl-5 pr-5">
                 
-                <h5 class="pt-5"><%= titulo %></h5>
+                <h5 class="pt-5"><%= title %></h5>
 
                 <div class="dropdown-divider mb-3 mt-2"></div>
 
-                <% if falha_login then %>
+                <% if login_error then %>
 
                 <h5 class="alert alert-danger pt-3 custom-alert  alert-dismissible show fade text-center">
                     <%= error_msg %>
                 </h5>
                 <div class="dropdown-divider mt-3"></div>
                 <% end %>
-                 <% if success_login then %>
+                <% if success_login then %>
 
                 <h5 class="alert alert-success pt-3 custom-alert  alert-dismissible show fade text-center">
                     <%= success_msg %>
                 </h5>
                 <div class="dropdown-divider mt-3"></div>
                 <% end %>
-                <% if logar then %>
+                <% if login then %>
                 <form action="/account/login" method="post">
                 <% else %>
                 <form action="/account/create" method="post">
@@ -48,7 +48,7 @@
                         
                         <input type="password" name="password" class="form-control" id="passInput" placeholder="Password">
                     </div>
-                    <button type="submit" class="btn btn-info pb-1 pt-2 pl-3 pr-3 mb-5 mt-5"><%= botaoSubmit %></button>
+                    <button type="submit" class="btn btn-info pb-1 pt-2 pl-3 pr-3 mb-5 mt-5"><%= submitButton %></button>
                 </form>
             </div>
         </div>

@@ -1,9 +1,6 @@
 html, body, #show, #home, #login, #perfil, #media, #suporte {
 	height: 100%;
-	overflow-x: hidden; /* esconde a barra horizontal de rolagem de tela (visible ou hidden ou scroll),
-	lembrando que mesmo utilizando scroll ele não rola a tela se esconder a barra. No caso do scroll
-	ele aparece a barra mesmo sem conteúdo saindo da tela. Pode usar só overflow para esconder 
-	vertical e horizontal  */
+	overflow-x: hidden; 
 }
 
 body {
@@ -38,9 +35,7 @@ h1 {
 }
 
 h5 {
-
   margin: 0;
-
 }
 
 .clear-margin {
@@ -60,12 +55,6 @@ h5 {
 .container-fluid {
   max-width: 90%;
 }
-/*
-.custom-drop {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 0;
-}*/
 
 .dropdown-divider {
   border-color: rgb(139, 135, 135);
@@ -103,7 +92,6 @@ h5 {
 .nav-item:hover, .nav-item:active {
   background-image: linear-gradient(to top, rgba(120, 120, 125, 0.6), rgba(120, 120, 125, 0.8));
   border-radius: 5px;
-
 }
 
 .nav-link {

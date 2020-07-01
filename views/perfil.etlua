@@ -5,7 +5,7 @@
                 
                 <div class="card limite-externo bg-transparent">
                     <div class="card-header text-light black-interno rounded">
-                       <h6 class="clear-margin pt-1 font-weight-bold"> INFORMAÇÕES DA CONTA </h6>
+                        <h6 class="clear-margin pt-1 font-weight-bold"> INFORMAÇÕES DA CONTA </h6>
                     </div>
                     <div class="card-body text-dark" style="background: rgba(250,250,250, 0.7); border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;">
                         <h5 class="card-title">Seja bem-vindo <span class="text-muted"><%= session.user.username %></span>,</h5>
@@ -46,7 +46,7 @@
                                 </div>
                             </div>
                         </div>
-                         <div class="dropdown-divider mt-3 mb-1"></div>
+                        <div class="dropdown-divider mt-3 mb-1"></div>
                     </div>
                 </div>
             </div>

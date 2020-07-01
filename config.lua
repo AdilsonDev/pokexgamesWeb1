@@ -1,9 +1,9 @@
 local config = require("lapis.config")
 config("development", {
-  postgres = {
+  mysql = {
     host = "127.0.0.1",
-    user = "meusite",
-    password = "123",
+    user = "root",
+    password = "1234",
     database = "meusite"
   },
   session_name = 'meusite',

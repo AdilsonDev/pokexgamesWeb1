@@ -1,20 +1,20 @@
 local Model = require('lapis.db.model').Model
-local usuarios = Model:extend('usuarios')
+local Users = Model:extend('users')
 
-function usuarios:buscar(user, pass)
+function Users:fsearch(user, pass)
     local query = 'WHERE username = ? AND password = ? LIMIT 1'
-    local resposta = self:select(query, user, pass)
-    if #resposta == 1 then
+    local fsearch_response = self:select(query, user, pass)
+    if #fsearch_response == 1 then
         return true 
     end
     return false
 end
 
-function usuarios:criar(user, pass)
+function Users:fmake(user, pass)
     local query = 'WHERE username = ? LIMIT 1'
-    local resposta_busca = self:select(query, user)
+    local fmake_response = self:select(query, user)
 
-    if #resposta_busca == 0 then
+    if #fmake_response == 0 then
         local p = self:create({
             username = user,
             password = pass
@@ -25,4 +25,4 @@ function usuarios:criar(user, pass)
     
 end
 
-return usuarios
+return Users

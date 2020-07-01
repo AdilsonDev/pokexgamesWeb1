@@ -13,9 +13,7 @@ Baixar valua.lua e sha2.lua e mover para o diretório openresty/lualib:
 
 Database:
 
-	utilizado postgres (https://www.postgresql.org/)
-
-	database meusite, tabela usuarios com values id (primary_key incremental), username VARCHAR(128), password VARCHAR(128)
+	Mysql -> schema.sql 
 	
 	Utilizado sha3_512 no username e password
 	
