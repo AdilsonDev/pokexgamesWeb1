@@ -1,11 +1,14 @@
 --
--- Table structure for table `meusite`
+-- Table structure for table `users`
 --
 
-CREATE DATABASE meusite DEFAULT CHARACTER SET utf8;
+-- database_name = meusite
 
-CREATE TABLE `meusite`.`users` (
-  `id` INT NOT NULL AUTO_INCREMENT,
-  `username` VARCHAR(128) NOT NULL,
-  `password` VARCHAR(128) NOT NULL,
-  PRIMARY KEY (`id`));
+DROP TABLE IF EXISTS `users`;
+
+CREATE TABLE `users` (
+    `id` int(11) NOT NULL AUTO_INCREMENT,
+    `username` varchar(128) NOT NULL,
+    `password` varchar(128) NOT NULL,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;

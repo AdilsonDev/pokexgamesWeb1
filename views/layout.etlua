@@ -1,150 +1,147 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     
-    <!-- Jquery, popper and bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <!-- Jquery, popper and bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   
-    <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/2610fcdb3b.js" crossorigin="anonymous"></script>
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/2610fcdb3b.js" crossorigin="anonymous"></script>
     
-    <!-- layout css -->
-    <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+        <!-- layout css -->
+        <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
     
-    <title>Meu Primeiro Site em Lua</title>    
-  </head>
-<body>
+        <title>Meu Primeiro Site em Lua</title>    
+    </head>
+    <body>
 
-  <!-- caso Não tiver javascript habilitado, será redirecionado em 5 seg para outra -->
-  <noscript>
+        <!-- caso Não tiver javascript habilitado, será redirecionado em 5 seg para outra -->
+        <noscript>
 
-    <section id="home" class="d-flex text-light" style="height: 100vh;">
-      <div class="container align-self-center">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <h1 class="display-4 font-weight-bold mb-3">Javascript Necessário</h1>
-            <p class="font-weight-bold lead"> 
-              Seu dispositivo não possui javascript ou está desativado no seu navegador, <br>recomendo que faça uma pesquisa no google de como ativar javascript no seu navegador.
-            <p>
-          </div>
-        </div>            
-      </div>    
-    </section>
+        <section id="home" class="d-flex text-light" style="height: 100vh;">
+            <div class="container align-self-center">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 class="display-4 font-weight-bold mb-3">Javascript Necessário</h1>
+                        <p class="font-weight-bold lead"> 
+                        Seu dispositivo não possui javascript ou está desativado no seu navegador, <br>recomendo que faça uma pesquisa no google de como ativar javascript no seu navegador.
+                        <p>
+                    </div>
+                </div>            
+            </div>    
+        </section>
 
-  </noscript>
-  <!-- fim do redirecionamento -->
+        </noscript>
+        <!-- fim do redirecionamento -->
 
-  <div id="show" style="display: none;">
-    <!-- Header (NavBar) -->
-    <header>
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand text-light" href="/">PokeXGames</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link text-light" href="/">Home <span class="sr-only">(Página atual)</span></a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Account
-                </a>
-                <div class="dropdown-menu custom-drop bg-transparent" aria-labelledby="navbarDropdownMenuLink">
-                  <% if not session.user then %>
-                    <a class="dropdown-item text-light" href="/account/login">Login</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item custom-drop-link text-light" href="/account/create">Create</a>
-                  <% else %>
-                    <a class="dropdown-item text-light" href="/perfil">Conta</a>
-                    <a class="dropdown-item text-light" href="/logout">Logout</a>
-                  <% end %>
+        <div id="show" style="display: none;">
+            <!-- Header (NavBar) -->
+            <header>
+                <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand text-light" href="/">PokeXGames</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="/">Home <span class="sr-only">(Página atual)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Account
+                                </a>
+                                <div class="dropdown-menu custom-drop bg-transparent" aria-labelledby="navbarDropdownMenuLink">
+                                <% if not session.user then %>
+                                    <a class="dropdown-item text-light" href="/account/login">Login</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item custom-drop-link text-light" href="/account/create">Create</a>
+                                <% else %>
+                                    <a class="dropdown-item text-light" href="/perfil">Conta</a>
+                                    <a class="dropdown-item text-light" href="/logout">Logout</a>
+                                <% end %>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="/media">Mídia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="/suporte">Suporte</a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <!-- Fim Header(NavBar) -->
+        
+            <!--Conteúdo Página -->
+            <% content_for("inner") %>
+            <!-- </section>-->
+        
+            <!-- Footer -->
+            <footer class="page-footer font-small special-color-dark mt-auto d-flex">
+                <div class="container align-self-center">
+                    <div class="row">
+                        <div class="col">
+
+                            <!-- Social buttons -->
+                            <ul class="list-unstyled list-inline text-center mb-0 p-0">
+                            <li class="list-inline-item hide">
+                                <a href="https://www.facebook.com/pokexgames/" target="_blank" class="btn-floating btn-fb mx-1 text-light" title="Facebook">
+                                <i class="fab fa-facebook-f iconesfooter"> </i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item hide">
+                                <a href="https://twitter.com/pokexgames" target="_blank" class="btn-floating btn-tw mx-1 text-light" title="Twitter">
+                                <i class="fab fa-twitter iconesfooter"> </i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item hide">
+                                <a href="https://forum.pokexgames.com/" target="_blank" class="btn-floating btn-gplus mx-1 text-light" title="Forum">
+                                <i class="far fa-comments iconesfooter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item hide">
+                                <a href="https://discord.com/invite/3Hxs4XT" target="_blank" class="btn-floating btn-dribbble mx-1 text-light" title="Discord">
+                                <i class="fab fa-discord iconesfooter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item hide">
+                                <a href="https://www.instagram.com/pxgoficial/?hl=pt" target="_blank" class="btn-floating btn-li mx-1 text-light" title="Instagram">
+                                <i class="fab fa-instagram iconesfooter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item hide">
+                                <a href="https://wiki.pokexgames.com/index.php/P%C3%A1gina_principal" target="_blank" class="btn-floating btn-li mx-1 text-light" title="Instagram">
+                                <i class="fab fa-wikipedia-w iconesfooter"></i>
+                                </a>
+                            </li>
+                            <li class="footer-copyright text-center pt-4">© 2020 Copyright:
+                                <a href="/" class="text-info" style="text-decoration: none;"> PokeXGames.com</a></li>
+                            </ul>
+                            <!-- Fim Social buttons -->
+                        </div>
+                    </div>
                 </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="/media">Mídia</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="/suporte">Suporte</a>
-              </li>
-            </ul>
-          </div>
+            </footer>
+            <!-- Fim Footer -->
         </div>
-      </nav>
-    </header>
-    <!-- Fim Header(NavBar) -->
-    
-    <!--Conteúdo Página -->
-    <!-- <section style="margin-top: 110px; min-height: 100vh;"> -->
-    <!--<div id="conteudo">-->
-      <% content_for("inner") %>
-    <!--</div>-->
-    <!-- </section>-->
-    
-    <!-- Footer -->
-    <footer class="page-footer font-small special-color-dark mt-auto d-flex">
-      <div class="container align-self-center">
-        <div class="row">
-          <div class="col">
 
-            <!-- Social buttons -->
-            <ul class="list-unstyled list-inline text-center mb-0 p-0">
-              <li class="list-inline-item hide">
-                <a href="https://www.facebook.com/pokexgames/" target="_blank" class="btn-floating btn-fb mx-1 text-light" title="Facebook">
-                  <i class="fab fa-facebook-f iconesfooter"> </i>
-                </a>
-              </li>
-              <li class="list-inline-item hide">
-                <a href="https://twitter.com/pokexgames" target="_blank" class="btn-floating btn-tw mx-1 text-light" title="Twitter">
-                  <i class="fab fa-twitter iconesfooter"> </i>
-                </a>
-              </li>
-              <li class="list-inline-item hide">
-                <a href="https://forum.pokexgames.com/" target="_blank" class="btn-floating btn-gplus mx-1 text-light" title="Forum">
-                  <i class="far fa-comments iconesfooter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item hide">
-                <a href="https://discord.com/invite/3Hxs4XT" target="_blank" class="btn-floating btn-dribbble mx-1 text-light" title="Discord">
-                  <i class="fab fa-discord iconesfooter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item hide">
-                <a href="https://www.instagram.com/pxgoficial/?hl=pt" target="_blank" class="btn-floating btn-li mx-1 text-light" title="Instagram">
-                  <i class="fab fa-instagram iconesfooter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item hide">
-                <a href="https://wiki.pokexgames.com/index.php/P%C3%A1gina_principal" target="_blank" class="btn-floating btn-li mx-1 text-light" title="Instagram">
-                  <i class="fab fa-wikipedia-w iconesfooter"></i>
-                </a>
-              </li>
-              <li class="footer-copyright text-center pt-4">© 2020 Copyright:
-                <a href="/" class="text-info" style="text-decoration: none;"> PokeXGames.com</a></li>
-            </ul>
-            <!-- Fim Social buttons -->
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- Fim Footer -->
-  </div>
-
-  <!-- Script para fazer o display none desaparecer -->
-	<script>
-		document.getElementById("show").style.display = "";
-	</script>
-  <!-- fim script none -->
-  
-</body>
+        <!-- Script para fazer o display none desaparecer -->
+        <script>
+            document.getElementById("show").style.display = "";
+        </script>
+        <!-- fim script none -->
+    
+    </body>
 </html>
   

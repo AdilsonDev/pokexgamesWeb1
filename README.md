@@ -14,6 +14,7 @@ Baixar valua.lua e sha2.lua e mover para o diretório openresty/lualib:
 Database:
 
 	Mysql -> schema.sql 
+	database_name = meusite
 	
 	Utilizado sha3_512 no username e password
 	
